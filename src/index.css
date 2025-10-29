@@ -1,0 +1,41 @@
+:root {
+  --white: #FFFF;
+  --whiteFA: #FAFAFA;
+  --whiteF9: #F9F9F9;
+  --black: #000;
+  --orange: #FFA62B;
+  --blue252B42: #252B42;
+  --gray73: #737373;
+  --grayBD: #BDBDBD;
+  --blue00A0C1: #00A0C1;
+  --persian-mosaic: #16697A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
